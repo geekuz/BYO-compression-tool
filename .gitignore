@@ -1,0 +1,24 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# Compiled
+*.class
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE (project keeps .idea config out of VCS)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
