@@ -66,6 +66,10 @@ The tool implements [Huffman coding](https://codingchallenges.fyi/challenges/cha
    bitstream (`BitInputStream`) emitting characters until the known character
    count is reached (trailing pad bits are ignored).
 
+For a full walkthrough — the determinism invariant, bit-level packing, edge
+cases, and a "where to look when…" map — see
+[docs/huffman-internals.md](docs/huffman-internals.md).
+
 ### Compressed file format (`HUF1`)
 
 ```
